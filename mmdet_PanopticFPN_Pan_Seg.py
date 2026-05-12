@@ -1,3 +1,4 @@
+@torch.no_grad()
 def visualize_mmdet_panoptic_fpn(
     model,
     image_paths,
